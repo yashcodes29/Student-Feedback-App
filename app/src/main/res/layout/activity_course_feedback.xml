@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_back"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/cou_Q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Do you think the college responds accurately to bullying cases??"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner_course_1"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cou_Q1"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:id="@+id/cou_Q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="How is campus cleanliness ?"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner_course_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cou_Q2"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="-2dp" />
+
+    <TextView
+
+        android:id="@+id/cou_Q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="How satisfied are you with your accommodation facilities??"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cou_Q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:padding="6dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="6dp"
+        android:text="Plants Watered Regularly ?"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner_course_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cou_Q3"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="0dp" />
+
+
+    <TextView
+
+        android:id="@+id/cou_Q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginBottom="10dp"
+        android:text="How is our campus??"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner_course_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cou_Q4"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="0dp" />
+
+    <Spinner
+        android:id="@+id/spinner_course_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cou_Q5"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/btn_ShowPie"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:layout_marginBottom="50dp"
+        android:text="Submit"
+        android:textSize="20sp" />
+
+</RelativeLayout>

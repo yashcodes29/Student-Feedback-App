@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_back"
+    tools:context=".SplashScreen">
+    
+    <ImageView
+        android:id="@+id/SplashImg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/download"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="74dp"
+        android:layout_alignBottom="@+id/SplashImg"
+        android:layout_marginBottom="-82dp"
+        android:text="Student Feedback "
+        android:textSize="30dp"
+        android:paddingLeft="75dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        ></TextView>
+
+
+</RelativeLayout>

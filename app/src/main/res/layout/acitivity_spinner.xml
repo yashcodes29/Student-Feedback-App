@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/campQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="6dp"
+        android:paddingLeft="10dp"
+        android:text="Question1.How is our campus??"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/campRes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="6dp"
+        android:paddingLeft="10dp"
+        android:text="Select Option"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner_campus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campQ1"
+        android:layout_marginTop="0dp"
+        android:outlineAmbientShadowColor="#ffff"
+        android:outlineSpotShadowColor="#ffff"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/download"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Student_Feeback"
+        tools:targetApi="31">
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".CouFeedQ5"
+            android:exported="false" />
+        <activity
+            android:name=".CouFeedQ4"
+            android:exported="false" />
+        <activity
+            android:name=".CouFeedQ3"
+            android:exported="false" />
+        <activity
+            android:name=".CouFeedQ2"
+            android:exported="false" />
+        <activity
+            android:name=".CouFeedQ1"
+            android:exported="false" />
+        <activity
+            android:name=".CouPie"
+            android:exported="false" />
+        <activity
+            android:name=".CourseFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".CampFeedQ5"
+            android:exported="false" />
+        <activity
+            android:name=".CampFeedQ4"
+            android:exported="false" />
+        <activity
+            android:name=".CampFeedQ3"
+            android:exported="false" />
+        <activity
+            android:name=".CampFeedQ2"
+            android:exported="false" />
+        <activity
+            android:name=".CampFeedQ1"
+            android:exported="false" />
+        <activity
+            android:name=".campie"
+            android:exported="false" />
+        <activity
+            android:name=".CantFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Canteen_Info"
+            android:exported="false" />
+        <activity
+            android:name=".CampusFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampusImages"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Spinner"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optHome"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"
+    />
+
+    <item
+        android:id="@+id/opt_Campus"
+        android:title="Campus"
+        android:icon="@drawable/baseline_home_work_24"
+        />
+
+    <item
+        android:id="@+id/opt_Courses"
+        android:title="Courses"
+        android:icon="@drawable/baseline_library_books_24"
+        />
+
+
+
+    <item
+        android:id="@+id/opt_About"
+        android:title="About Us"
+        android:icon="@drawable/baseline_person_24"
+        />
+    <item
+        android:id="@+id/opt_logout"
+        android:title="LogOut"
+        android:icon="@drawable/baseline_logout_24"
+        />
+</menu>
